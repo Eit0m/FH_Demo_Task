@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Build Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h2>Custom Build Form</h2>
+
+    <form id="custom-form">
+        <div id="form-fields">
+            <!-- Fields will be dynamically added here -->
+        </div>
+        <button type="button" id="add-text-field">Add Text Field</button>
+        <button type="button" id="add-select-field">Add Select Field</button>
+        <button type="submit">Save</button>
+    </form>
+
+    <hr>
+
+    <h2>Submitted Data</h2>
+    <div id="data-table-container">
+        <table id="data-table">
+            <!-- Submitted data will be displayed here -->
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
